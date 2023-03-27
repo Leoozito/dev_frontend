@@ -1,7 +1,10 @@
 import styles from './Header.module.css'
+import meuLogo from '../assets/meu_logo.txt'
 
 export function Header() {
     return(
-        <strong className={styles.header}>Programer Full-Stack</strong>
+        <header className={styles.header}>
+            <strong>Programmer Full-Stack</strong>
+        </header>
     );
 }

@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    
+    display: grid; 
+    grid-template-columns: 256px 1fr; /* definindo que a primeira coluna tem um valor fixo, e que o segundo terá um tamanho flexivel */
+    gap: 2rem; /* o espaçamento entre as colunas */
+    align-items: flex-start; /* faz com que nossas grid fiquem alinhadas, esticando o dois para que tenham o mesmo tamanho */
+}
