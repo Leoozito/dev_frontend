@@ -8,3 +8,13 @@
     gap: 2rem; /* o espaçamento entre as colunas */
     align-items: flex-start; /* faz com que nossas grid fiquem alinhadas, esticando o dois para que tenham o mesmo tamanho */
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87,5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

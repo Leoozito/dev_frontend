@@ -7,9 +7,20 @@
     --gray-700: #29292e;
     --gray-800: #282824;
     --gray-900: #121214;
-
+    
+    --yellow-300: #fde047;
+    --yellow-400: #facc15;
+    --yellow-500: #eab308;
     --yellow-600: #ca8a04;
+    --yellow-700: #a16207;
+
+    --red-500: #f75a68;
 }
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--yellow-600);
+} /* o focus no css serve para o selecionamento dos elementos, exemplo quando damos TAB*/
 
 * {
     padding: 0;

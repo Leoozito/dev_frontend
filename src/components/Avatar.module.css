@@ -1,0 +1,15 @@
+.avatar{
+    box-sizing: initial; /* quando adiciono padding margin borda faz com que o elemento ocupe um espaço a mais, e com o initial faz com que não esprema a imagem*/
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.avatarWithBorder{
+    box-sizing: initial;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 4px solid var(--yellow-600); 
+}
